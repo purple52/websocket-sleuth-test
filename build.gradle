@@ -30,6 +30,10 @@ jar {
     baseName = "websocket-sleuth-test"
 }
 
+springBoot {
+    mainClassName = 'com.example.Application'
+}
+
 repositories {
     mavenCentral()
     maven { url "https://repo.spring.io/milestone" }
