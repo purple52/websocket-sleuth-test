@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: websocket-sleuth-test
+server:
+  servlet:
+    contextPath: /websocket-sleuth-test

@@ -1,0 +1,32 @@
+.gradle
+/build/
+/out
+**/out
+**/build
+config/application.yml
+config/application-*.yml
+src/main/resources/logback-spring-dev.xml
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build.json
